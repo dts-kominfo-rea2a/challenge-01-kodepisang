@@ -1,4 +1,4 @@
-// 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
+// node 
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
@@ -68,10 +68,10 @@ const firstUser = {
   gender: genders[1],
   age: 17,
   email: "monica@dingdong.com",
-  favoriteColor: firstFavColor,
+  favoriteColor: Array.from(firstFavColor),
   isHavePet: "Yes",
   education: educationFirst,
-  favoriteRestaurant: favoriteRestaurantFirst,
+  favoriteRestaurant: Array.from(favoriteRestaurantFirst),
 };
 
 const secondUser = {
@@ -79,10 +79,10 @@ const secondUser = {
   gender: genders[0],
   age: 17,
   email: "monica@dingdong.com",
-  favoriteColor: secondFavColor,
+  favoriteColor: Array.from(secondFavColor),
   isHavePet: "Yes",
   education: educationSecond,
-  favoriteRestaurant: favoriteRestaurantSecond,
+  favoriteRestaurant: Array.from(favoriteRestaurantSecond),
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
