@@ -1,3 +1,4 @@
+// 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
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
@@ -5,15 +6,15 @@ const firstFavColor = new Set();
 const secondFavColor = new Set();
 
 //isi data FavColor dari user 1
-firstFavColor
-  .add("Yellow")
-  .add("Pink")
-  .add("Purple")
-  .add("White")
-  .add("Purple");
+firstFavColor.add("Yellow");
+firstFavColor.add("Pink");
+firstFavColor.add("Purple");
+firstFavColor.add("White");
 
 //isi data FavColor dari user 2
-secondFavColor.add("Blue").add("Black").add("Grey");
+secondFavColor.add("Blue");
+secondFavColor.add("Black");
+secondFavColor.add("Grey");
 
 // console.log(firstFavColor);
 
@@ -85,7 +86,7 @@ const secondUser = {
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
-const users = [firstUser,secondUser];
+const users = [firstUser, secondUser];
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
